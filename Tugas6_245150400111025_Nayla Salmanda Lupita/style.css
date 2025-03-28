@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Winky Sans", sans-serif;
+    background-color: #f0f4f8; 
+    color: #2c3e50; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 40px 20px;
+}
+
+.container {
+    width: 75%; 
+    max-width: 900px;
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+    text-align: center;
+    margin-bottom: 30px; 
+}
+
+.form-box, .table-box {
+    padding: 25px;
+    border-radius: 12px;
+    background-color: #eaf2f8; 
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px; 
+}
+
+h2 {
+    margin-bottom: 18px;
+    color: #2980b9; 
+    text-align: center;
+}
+
+label {
+    display: inline-block;
+    font-weight: bold;
+    margin-bottom: 6px;
+    color: #2c3e50; 
+    text-align: center;
+    width: 100px; 
+
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+input[type="text"] {
+    width: calc(100% - 120px);
+    padding: 12px;
+    border: 1px solid #2980b9;
+    border-radius: 6px;
+    outline: none;
+    font-size: 16px;
+}
+
+button {
+    background-color: #3498db; 
+    color: white;
+    padding: 12px 18px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #1abc9c; 
+    transform: scale(1.05);
+}
+
+.table-box {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    text-align: center;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 14px;
+    border-bottom: 1px solid #bdc3c7; 
+    font-size: 14px;
+}
+
+th {
+    background-color: #3498db;
+    color: white;
+}
+
+tr:hover {
+    background-color: #ecf0f1; 
+}
+
+a {
+    color: #e74c3c; 
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
